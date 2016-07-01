@@ -1,0 +1,302 @@
+.registerForm { 
+margin-left:auto;
+margin-right:auto;
+margin-top:100px;
+border:1px solid white;
+width:425px;
+height:170px;
+text-align:center;
+position:relative;z-index:100;
+}
+
+#container {
+   min-height:75%;
+   position:relative;
+}
+.KitDetails {
+ position: absolute;
+ top: 50; bottom: 0; left: 252; right: 0;
+}
+
+.assignTechButton {
+position:relative;
+margin-left:600px;
+margin-bottom:10px;
+margin-top:10px;
+}
+
+.kit {
+border:1px solid black;
+margin-bottom:10px;
+height:auto;
+position:relative;
+}
+
+.kitTitle {
+padding:0.2em 0.6em;
+background-color:006699;;
+color:white;
+}
+
+.kit p {
+margin-left:10px;
+}
+
+body {
+font: normal normal 12px/1.2em ASAP, asapregular, verdana, sans-serif;
+background-image:url('images/screen.png');
+
+}
+
+input {
+font: normal normal 12px/1.2em ASAP, asapregular, verdana, sans-serif;
+}
+
+a {
+text-decoration:none;
+color:006699;
+font-size:12px;
+}
+
+a:hover {
+text-decoration:underline;
+color:red;
+}
+
+.registerForm label, .addToolForm label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 175px;
+    text-align: right;
+}
+.registerForm input, .addToolForm input {
+  margin-left:10px;
+  display: inline-block;
+  float: left;
+}
+
+.addToolForm select {
+ margin-left:10px;
+  display: inline-block;
+  float: left;
+}
+
+.title {
+color:white;
+margin-left:115px;
+font-size:12px;
+}
+
+
+.header {
+padding:0.2em 0.6em;
+margin-left:150px;
+width:910px;
+height:100px;
+border:1px solid white;
+background-image:url('images/usaf_logo.png');
+background-repeat:no-repeat;
+background-color:#F1F2F2;
+}
+
+.inventory{
+background-color:#F1F2F2;
+border:1px solid white;
+margin-left:51px;
+margin-top:10px;
+width:360px;
+height:500px;
+font-size:12px;
+}
+
+.inventory_fullDisplay{
+background-color:#F1F2F2;
+border:1px solid white;
+margin-left:150px;
+margin-top:10px;
+width:930px;
+height:660px;
+font-size:12px;
+}
+
+.technician_fullDisplay{
+background-color:#F1F2F2;
+border:1px solid white;
+margin-left:150px;
+margin-top:10px;
+width:930px;
+height:auto;
+font-size:12px;
+}
+
+.technicians{
+font-size:12px;
+border:1px solid white;
+margin-left:425px;
+margin-top:-501px;
+width:350px;
+height:500px;
+overflow:auto;
+background-color:#F1F2F2;
+}
+
+.reports{
+font-size:12px;
+border:1px solid white;
+margin-left:790px;
+margin-top:-502px;
+width:350px;
+height:500px;
+background-color:#F1F2F2;
+}
+
+.addTool{
+position:relative;
+background-color:#F1F2F2;
+border:1px solid white;
+padding:5em 5em;
+margin-left:150px;
+margin-top:10px;
+width:810px;
+height:auto;
+font-size:12px;
+}
+
+textarea { resize:none; }
+
+
+.imageUpload {
+border:1px solid black;
+padding:0.2em 0.6em;
+width:50%;
+margin-left:250px;
+}
+
+.toolDisplay_quick {
+padding-top:2px;
+margin:0px;
+width:375px;
+height:495px;
+}
+
+.toolDisplay_full {
+padding:0.2em .6em;
+margin:0px;
+width:920px;
+height:495px;
+position:relative;
+}
+
+.toolDisplay_quick label, .toolDisplay_full label {
+margin-left:-5px;
+margin-top:-5px;
+padding:0.2em 0.6em;
+background-color:006699;
+color:white;
+}
+
+.spacer {
+padding-left:10px;
+text-align:center;
+}
+
+.toolAction {
+padding-left:25px;
+text-align:center;
+}
+
+.tool_Thumbnail {
+margin-left:10px;
+width:50px;
+border:1px solid black;
+height:50px;
+}
+
+.tool_Image {
+width:100px;
+height:100px;
+border:1px solid black;
+}
+
+.pagination {
+padding:0.2em 0.6em;
+margin-left:5px;
+border:1px solid #006699;
+}
+
+hr {
+width:97%;
+color:black;
+}
+
+#reports{
+    font: normal normal 12px/1.2em ASAP, asapregular, verdana, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#reports, #reports th {
+    font-size: 1em;
+    padding: 0.2em 0.6em;
+}
+
+#reports th {
+    font-size: .8em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #F1F2F2;
+    color: #006699;
+}
+
+#reports tr.alt td {
+padding:0.2em 0.6em;
+color: white;
+background-color: #006699;
+}
+
+
+#tools{
+	overflow:auto;
+    font: normal normal 12px/1.2em ASAP, asapregular, verdana, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tools, #tools th {
+    font-size: 1em;
+    padding: 0.2em 0.6em;
+}
+
+#tools th {
+    font-size: .8em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #006699;
+    color: #ffffff;
+}
+
+#tools tr.alt td {
+padding:0.2em 0.6em;
+color: white;
+background-color: #006699;
+}
+
+.searchResults {
+padding:2em;
+}
+
+.searchResults h1 {
+text-align:center;
+}
+
+.footer_2 {
+    padding:0.2em 0.6em;
+    margin-top:20px;
+    background-color:white;
+    width:810px;
+    height:15px;
+    margin-left:170px;
+}
