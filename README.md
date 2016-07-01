@@ -9,4 +9,3 @@ A small-scale inventory tracking system designed for creating, accounting and do
 
 ![alt text](https://github.com/mason-wolf/csims/blob/master/images/screenshot_1.png)
 
-![alt text](https://github.com/mason-wolf/csims/blob/master/images/screenshot_2.png)
